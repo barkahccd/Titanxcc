@@ -1,0 +1,24 @@
+{
+  "name": "titanxbot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "bin": {
+    "titanxbot": "index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "login": "node index.js login",
+    "login:manual": "node index.js login --manual",
+    "once": "node index.js once",
+    "status": "node index.js status",
+    "selftest": "node index.js selftest"
+  },
+  "dependencies": {
+    "ethers": "6.17.0",
+    "impit": "0.14.5"
+  }
+}
